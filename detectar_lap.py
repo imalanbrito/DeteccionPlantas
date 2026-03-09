@@ -2,7 +2,6 @@ import cv2
 from ultralytics import YOLO
 
 # 1. Cargar el modelo entrenado (.pt)
-# Asegúrate de que el archivo best.pt esté en la misma carpeta que este script
 model = YOLO("best.pt")
 
 # 2. Configurar la cámara web de la laptop
