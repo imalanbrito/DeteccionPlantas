@@ -20,7 +20,7 @@ while cap.isOpened():
 
     # 4. Dibujar los resultados en el video
     for r in results:
-        annotated_frame = r.plot()  # Dibuja cuadros y etiquetas automáticamente
+        annotated_frame = r.plot()  # Dibuja cuadros y etiquetas automáticamente (gracias al dataset se etiquetan los brocolis)
 
     # 5. Mostrar la ventana
     cv2.imshow("Prototipo Deteccion de Plantas ", annotated_frame)
