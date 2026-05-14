@@ -6,9 +6,9 @@ Sistema de visión artificial para tractores inteligentes que clasifica brócoli
 ## 🏗️ ARQUITECTURA DEL SISTEMA
 
 ### FASE 1: ENTRENAMIENTO DEL MODELO (DETECCION_V1.IPYNB)
-* **Dataset:** Descarga desde Roboflow (API: `0YtqqCozPYWYp4KU99WP`).
+* **Dataset:** Descarga desde Roboflow (API).
 * **Segmentación:** División 70/20/10 mediante `split-folders`.
-* **Entrenamiento:** 100 épocas con `yolov5n.pt` y resolución de 640px.
+* **Entrenamiento:** 100 épocas con `yolov5n.pt` y resolución de imganenes del dataset a 640px.
 
 ### FASE 2: DESPLIEGUE E INFERENCIA LOCAL (DETECTAR_LAP.PY)
 * **Inferencia:** Carga de `best.pt` para predicción en tiempo real.
